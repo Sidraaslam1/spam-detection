@@ -14,6 +14,9 @@ import pandas as pd
 
 # data visulization
 git add requirements.txt
+git commit -m "Fix: added seaborn to requirements.txt"
+git push origin main
+
 git commit -m "Added seaborn to requirements.txt"
 git push origin main
 
