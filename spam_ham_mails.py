@@ -13,7 +13,10 @@ import numpy as np
 import pandas as pd
 
 # data visulization
-git add requirements.txt
+git add spam_ham_mails.py
+git commit -m "Fixed: removed git commands from Python script"
+git push origin main
+
 git commit -m "Fix: added seaborn to requirements.txt"
 git push origin main
 
