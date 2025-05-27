@@ -217,4 +217,9 @@ if st.checkbox("Show model accuracy"):
     acc = accuracy_score(y_test, y_pred)
     st.write(f"Model Accuracy on test data: **{acc * 100:.2f}%**")
 
-!streamlit run /content/app.py & npx localtunnel --port 8501
+import subprocess
+
+# Start Streamlit and LocalTunnel
+subprocess.Popen(["streamlit", "run", "/content/app.py"])
+subprocess.Popen(["npx", "localtunnel", "--port", "8501"])
+
