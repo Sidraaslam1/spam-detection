@@ -13,6 +13,7 @@ import numpy as np
 import pandas as pd
 
 # data visulization
+seaborn
 git add spam_ham_mails.py
 git commit -m "Fixed: removed git commands from Python script"
 git push origin main
