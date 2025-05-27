@@ -162,7 +162,14 @@ spam_dect(clf_NaiveBaised,test_email_1)
 #Predict with Naive Bayes
 spam_dect(clf_NaiveBaised,test_email_2)
 
-pip install streamlit
+import subprocess
+import sys
+
+try:
+    import streamlit
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "streamlit"])
+
 
 import streamlit as st
 import numpy as np
