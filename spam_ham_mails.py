@@ -13,7 +13,10 @@ import numpy as np
 import pandas as pd
 
 # data visulization
-import seaborn as sns
+git add requirements.txt
+git commit -m "Added seaborn to requirements.txt"
+git push origin main
+
 from matplotlib import pyplot as plt
 from matplotlib import style
 from sklearn.metrics import confusion_matrix
