@@ -14,10 +14,6 @@ import pandas as pd
 
 # data visulization
 import seaborn as sns  # ✅ correct
-git push origin main
-
-git commit -m "Added seaborn to requirements.txt"
-git push origin main
 
 from matplotlib import pyplot as plt
 from matplotlib import style
