@@ -14,7 +14,6 @@ import pandas as pd
 
 # data visulization
 import seaborn as sns  # ✅ correct
-git commit -m "Fix: added seaborn to requirements.txt"
 git push origin main
 
 git commit -m "Added seaborn to requirements.txt"
