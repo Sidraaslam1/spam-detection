@@ -15,7 +15,6 @@ import pandas as pd
 # data visulization
 import seaborn as sns  # ✅ correct
 
-git add spam_ham_mails.py
 git commit -m "Fixed: removed git commands from Python script"
 git push origin main
 
