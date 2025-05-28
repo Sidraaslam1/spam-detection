@@ -27,7 +27,10 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.pipeline import Pipeline
 
 # read csv file
-df = pd.read_csv('email.csv')
+import pandas as pd
+
+df = pd.read_csv('email.csv')  # This assumes the CSV is in the same folder
+
 
 #Print top 5 Values
 df.head()
