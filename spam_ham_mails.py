@@ -181,7 +181,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Load and prepare the dataset
-df = pd.read_csv("/content/email.csv", encoding='latin-1')
+df = pd.read_csv("email.csv", encoding='latin-1')  
 df.columns = ['Category', 'Message']
 df['spam'] = df['Category'].apply(lambda x: 1 if x == 'spam' else 0)
 X = df['Message']
